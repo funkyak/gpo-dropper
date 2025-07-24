@@ -1,8 +1,0 @@
-alert ip any any -> 45.77.89.34 any (msg:"MISP alert: Suricata IOC Feed [ip-dst]"; sid:3000000; rev:1;)
-alert dns any any -> any any (msg:"MISP alert: Suricata IOC Feed [domain]"; content:"badguy.org"; nocase; sid:3000001; rev:1;)
-alert http any any -> any any (msg:"MISP alert: Suricata IOC Feed [url]"; content:"http://malicious.example.com"; http_uri; sid:3000002; rev:1;)
-alert http any any -> any any (msg:"MISP alert: Suricata IOC Feed [md5]"; filemd5:"8e4e5d14bb93ad72fd580df74f6f3a77"; sid:3000003; rev:1;)
-alert ip any any -> 45.77.89.34 any (msg:"MISP alert: Suricata IOC Feed [ip-dst]"; sid:3000004; rev:1;)
-alert dns any any -> any any (msg:"MISP alert: Suricata IOC Feed [domain]"; content:"badguy.org"; nocase; sid:3000005; rev:1;)
-alert http any any -> any any (msg:"MISP alert: Suricata IOC Feed [url]"; content:"http://malicious.example.com"; http_uri; sid:3000006; rev:1;)
-alert http any any -> any any (msg:"MISP alert: Suricata IOC Feed [md5]"; filemd5:"8e4e5d14bb93ad72fd580df74f6f3a77"; sid:3000007; rev:1;)
